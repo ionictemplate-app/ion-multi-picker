@@ -1,0 +1,146 @@
+[
+  {
+    "value": "1000",
+    "label": "01",
+    "children": [
+      {
+        "value": "1010",
+        "label": "01-01",
+        "children": [
+          {
+            "value": "1011",
+            "label": "01-01-01",
+            "children": []
+          },
+          {
+            "value": "1012",
+            "label": "01-01-02",
+            "children": []
+          },
+          {
+            "value": "1013",
+            "label": "01-01-03",
+            "children": []
+          }
+        ]
+      },
+      {
+        "value": "1020",
+        "label": "01-02",
+        "children": [
+          {
+            "value": "1021",
+            "label": "01-02-01",
+            "children": []
+          },
+          {
+            "value": "1022",
+            "label": "01-02-02",
+            "children": []
+          },
+          {
+            "value": "1023",
+            "label": "01-02-03",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "value": "2000",
+    "label": "02",
+    "children": [
+      {
+        "value": "2010",
+        "label": "02-01",
+        "children": [
+          {
+            "value": "2011",
+            "label": "02-01-01",
+            "children": []
+          },
+          {
+            "value": "2012",
+            "label": "02-01-02",
+            "children": []
+          },
+          {
+            "value": "2013",
+            "label": "02-01-03",
+            "children": []
+          }
+        ]
+      },
+      {
+        "value": "2020",
+        "label": "02-02",
+        "children": [
+          {
+            "value": "2021",
+            "label": "02-02-01",
+            "children": []
+          },
+          {
+            "value": "2022",
+            "label": "02-02-02",
+            "children": []
+          },
+          {
+            "value": "2023",
+            "label": "02-02-03",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "value": "3000",
+    "label": "03",
+    "children": [
+      {
+        "value": "3010",
+        "label": "03-01",
+        "children": [
+          {
+            "value": "3011",
+            "label": "03-01-01",
+            "children": []
+          },
+          {
+            "value": "3012",
+            "label": "03-01-02",
+            "children": []
+          },
+          {
+            "value": "3013",
+            "label": "03-01-03",
+            "children": []
+          }
+        ]
+      },
+      {
+        "value": "3020",
+        "label": "03-02",
+        "children": [
+          {
+            "value": "3021",
+            "label": "03-02-01",
+            "children": []
+          },
+          {
+            "value": "3022",
+            "label": "03-02-02",
+            "children": []
+          },
+          {
+            "value": "3023",
+            "label": "03-02-03",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]
