@@ -1,0 +1,35 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>world-picker</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ListItem
+            Picker
+            [okText]="'Ok'"
+            [dismissText]="'Cancel'"
+            [extra]="worldResult"
+            [arrow]="'horizontal'"
+            [data]="worldData"
+            [(ngModel)]="worldSelectedValue"
+            (ngModelChange)="onOk3($event)">
+        World
+    </ListItem>
+
+    <ListItem
+            Picker
+            [okText]="'Ok'"
+            [dismissText]="'Cancel'"
+            [extra]="worldResult2"
+            [arrow]="'horizontal'"
+            [data]="worldData2"
+            [(ngModel)]="worldSelectedValue2"
+            (ngModelChange)="onOk4($event)">
+        World2
+    </ListItem>
+</ion-content>

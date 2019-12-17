@@ -1,0 +1,79 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>city-picker</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ListItem
+            Picker
+            [okText]="'Ok'"
+            [dismissText]="'Cancel'"
+            [data]="usData"
+            [extra]="usResult"
+            [arrow]="'horizontal'"
+            [mask]="true"
+            [(ngModel)]="usSelectedValue"
+            (ngModelChange)="onOk1($event)">
+        Us City
+    </ListItem>
+    <ion-item>
+        <ion-label position="fixed">select city</ion-label>
+        <ion-label>{{usResult}}</ion-label>
+    </ion-item>
+
+    <ListItem
+            Picker
+            [okText]="'Ok'"
+            [dismissText]="'Cancel'"
+            [data]="krData"
+            [extra]="krResult"
+            [arrow]="'horizontal'"
+            [mask]="true"
+            [(ngModel)]="krSelectedValue"
+            (ngModelChange)="onOk2($event)">
+        Kr City
+    </ListItem>
+    <ion-item>
+        <ion-label position="fixed">select city</ion-label>
+        <ion-label>{{krResult}}</ion-label>
+    </ion-item>
+
+
+    <ListItem
+            Picker
+            [okText]="'Ok'"
+            [dismissText]="'Cancel'"
+            [data]="cityData"
+            [extra]="result"
+            [arrow]="'horizontal'"
+            [mask]="true"
+            [(ngModel)]="value"
+            (ngModelChange)="onOk($event)">
+        Cn City
+    </ListItem>
+    <ion-item>
+        <ion-label position="fixed">select value</ion-label>
+        <ion-label>{{result}}</ion-label>
+    </ion-item>
+
+    <ListItem
+            Picker
+            [okText]="'Ok'"
+            [dismissText]="'Cancel'"
+            [data]="irData"
+            [extra]="irResult"
+            [arrow]="'horizontal'"
+            [mask]="true"
+            [(ngModel)]="irSelectedValue"
+            (ngModelChange)="onOk3($event)">
+        IranCity
+    </ListItem>
+    <ion-item>
+        <ion-label>select value</ion-label>
+        <ion-label>{{irResult}}</ion-label>
+    </ion-item>
+</ion-content>
